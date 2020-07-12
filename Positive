@@ -1,0 +1,17 @@
+#Program to print positive numbers out of a list
+
+#1.input=[10,-56,-2, 11,2,4]
+#output=10,11,2,4
+
+list1=[10,-56,-2, 11,2,4]
+for number in list1:
+  if(number>=0):
+    print(number,end=" ")
+    
+    
+ #2.input=[10,14,-56,7]
+ #output=[10,14,7]
+ 
+list2=[10,14,-56,7]
+listnew=[number for number in list2 if number>0]
+print(listnew)
